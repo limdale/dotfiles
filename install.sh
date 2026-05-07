@@ -25,3 +25,6 @@ echo "1. Open the Karabiner Elements app"
 echo "2. Grant the required permissions"
 read -p "Once finished, press any key to proceed to copying over the karabiner.json file..." -n 1 -r
 cp karabiner/karabiner.json ~/.config/karabiner/karabiner.json
+
+# Install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

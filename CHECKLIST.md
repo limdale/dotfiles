@@ -13,6 +13,10 @@
 - [ ] mitmproxy
 - [ ] ffmpeg
 - [ ] jadx
+- [ ] gnupg
+- [ ] ghostty
+- [ ] tmux
+- [ ] Claude
 
 ### Surfing
 - [ ] Firefox
