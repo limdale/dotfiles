@@ -17,6 +17,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # Install everything else via Brewfile
 brew bundle
 
+# Install Android CLI
+curl -fsSL https://dl.google.com/android/cli/latest/darwin_arm64/install.sh | bash
+
 # Install Android Studio, open this in browser: https://developer.android.com/studio
 
 # Karabiner config

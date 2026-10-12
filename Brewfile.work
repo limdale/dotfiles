@@ -1,11 +1,34 @@
-brew "ffmpeg"
+tap "android/tap"
+tap "anomalyco/tap"
+tap "docker/tap"
+# GitHub command-line tool
+brew "gh"
+# Distributed revision control system
 brew "git"
+# GNU Privacy Guard (OpenPGP)
+brew "gnupg"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
+# Development kit for the Java programming language
 brew "openjdk"
-brew "scrcpy"
-cask "firefox"
+# Dex to Java decompiler
+brew "jadx"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Terminal multiplexer
+brew "tmux"
+cask "android-cli"
+# Terminal-based AI coding assistant
+cask "claude-code@latest"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Keyboard customiser
 cask "karabiner-elements"
+# Intercept, modify, replay, save HTTP/S traffic
 cask "mitmproxy"
-cask "protonvpn"
+# Build, run, and govern agents across the software development lifecycle
+cask "docker/tap/sbx"
+# Open-source code editor
 cask "visual-studio-code"
-cask "vlc"
+# Slack
 cask "slack"
